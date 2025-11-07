@@ -1,8 +1,8 @@
 """add Department
 
-Revision ID: 0b585e6ffd69
-Revises: f99ba8eae8bd
-Create Date: 2025-11-07 04:38:34.234104
+Revision ID: 5090d7cf5231
+Revises: 0c79e30bc025
+Create Date: 2025-11-07 05:46:37.484730
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '0b585e6ffd69'
-down_revision = 'f99ba8eae8bd'
+revision = '5090d7cf5231'
+down_revision = '0c79e30bc025'
 branch_labels = None
 depends_on = None
 

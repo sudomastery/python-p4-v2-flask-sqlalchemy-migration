@@ -26,7 +26,7 @@ class Department(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, nullable=False)
-    address = db.Column(db.String)
+    location = db.Column(db.String, nullable=False)
 
     def __repr__(self):
-        return f'<Department {self.id}, {self.name}, {self.address}>'
+        return f'<Department {self.id}, {self.name} {self.location}>'
